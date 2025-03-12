@@ -340,10 +340,10 @@ class PlumeAPI:
             "blur": blur,
         }
         return self._get_file("/cards/goodbye", params)
-    
+
     def upside_down(self, text: str) -> Dict[str, Any]:
         return self._get("/upside-down", {"text": text})
-    
+
     def screenshot(self, url: str) -> bytes:
         return self._get_file("/screenshot", {"url": url})
 
