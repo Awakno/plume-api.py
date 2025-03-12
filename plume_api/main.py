@@ -3,7 +3,7 @@ from typing import Optional, Dict, Any, Union, Literal
 
 
 class PlumeAPI:
-    BASE_URL = "https://plume.ptarmigan.xyz/api"  # Remplacez par l'URL réelle de l'API
+    BASE_URL = "https://plume.ptarmigan.xyz/api"
 
     def __init__(self):
         self.user_agent = "PlumeAPI.py/1.0.0"
