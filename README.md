@@ -57,6 +57,7 @@ with open('iss_image.png', 'wb') as f:
 - `encode(type: str, text: str) -> Dict[str, Any]`
 - `github_repository(name: str) -> Dict[str, Any]`
 - `github_user(name: str) -> Dict[str, Any]`
+- `upside_down(text: str) -> Dict[str, Any]`
 
 ### Utility Endpoints
 
@@ -82,6 +83,7 @@ with open('iss_image.png', 'wb') as f:
 - `nokia(url: str) -> bytes`
 - `tweet(avatar: str, name: str, username: str, text: str, retweets: Optional[int] = None, quote_tweets: Optional[int] = None, likes: Optional[int] = None) -> bytes`
 - `wanted(avatar: str) -> bytes`
+- `screenshot(url: str) -> bytes`
 
 ### Image Manipulation
 
@@ -107,6 +109,7 @@ with open('iss_image.png', 'wb') as f:
 - `table_flip(avatar: str) -> bytes`
 - `water(text: str) -> bytes`
 - `woosh(avatar: str) -> bytes`
+- `pepe_hug(avatar: str) -> bytes`
 
 ### Cards
 
