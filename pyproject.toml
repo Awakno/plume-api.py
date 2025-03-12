@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "PlumeAPI"
-version = "1.0.0"
+name = "plume-api"
+version = "1.0.1"
 description = "Unofficial Plume API Wrapper"
 homepage = "https://plume.ptarmigan.xyz/"
 license = "MIT"
