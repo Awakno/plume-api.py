@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "PlumeAPI"
+version = "1.0.0"
+description = "Unofficial Plume API Wrapper"
+homepage = "https://plume.ptarmigan.xyz/"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Awakno/plume-api.py"
+authors = [
+  "Awakno <contact@awakno.fr>"
+]
+[tool.poetry.dependencies]
+python = "^3.8.1"
+requests = "^2.32.3"
